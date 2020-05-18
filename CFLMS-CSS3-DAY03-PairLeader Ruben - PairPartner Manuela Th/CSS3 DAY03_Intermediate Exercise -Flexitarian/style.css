@@ -1,20 +1,9 @@
-/*#container-box {
+#container-box {
     border: 1px solid;
     width: 400px;
-    display: flex;
-}*/
-
-.container-1line {
-    display: flex;
-    justify-content: space-between;
 }
 
-.container-2line {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-3line {
+.wrapper .container {
     display: flex;
     justify-content: space-between;
 }
@@ -23,25 +12,27 @@
     border: 8px solid;
 }
 
-.gray-line{
-	/*display: flex;
+.gray-line {
+    /*display: flex;
 	flex-direction: flex-end;*/
-	width: 90%;
-	text-align: right;
-
-
+    width: 90%;
+    margin-right: 10px;
 }
 
 .medium-line {
     border: 3px solid;
 }
 
-
-.line4{
-	font-size: 19px;
-	padding-left: 15px;
+.line4 {
+    font-size: 19px;
+    margin-left: 15px;
 }
 
-#lineright{
- 	text-align: right;
+#lineright {
+    text-align: right;
+}
+
+.middle-box {
+    display: flex;
+    flex-direction: column;
 }
