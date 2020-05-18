@@ -1,97 +1,94 @@
 #title {
-	color: darkgrey;
-	text-transform: uppercase;
-	text-align: center;
-	padding: 50px 50px;
+    color: darkgrey;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 50px;
 }
 
 p {
-	color: orange;
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
 .box-container {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.box{
-	background-color: lightgrey;
-	width: 150px;
-	height: 150px;
-	margin: 0 5px;
-	border: 1px solid;
+.box {
+    background-color: lightgrey;
+    width: 150px;
+    height: 150px;
+    margin: 0 5px;
+    border: 1px solid;
 }
 
-#box1{
-	background-color: orange;
-	transition-property: width, height;
-	transition-duration: 500ms;
-	transition-timing-function: ease-in-out;
-
+#box1 {
+    background-color: orange;
+    transition-property: width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
-#box1:hover{
-	background-color: #FF6600;
-	width: 200px;
-	height: 200px;
+#box1:hover {
+    background-color: #FF6600;
+    width: 200px;
+    height: 200px;
 }
 
-#box2{
-	background-color: lightblue;
-	transition-property: width, height;
-	transition-duration: 500ms;
-	transition-timing-function: ease-in-out;
+#box2 {
+    background-color: lightblue;
+    transition-property: width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
-#box2:hover{
-	background-color: darkblue;
-	width: 200px;
-	height: 200px;
+#box2:hover {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
 }
 
-#box3{
-	background-color: lime;
-	transition-property: width, height;
-	transition-duration: 500ms;
-	transition-timing-function: ease-in-out;
+#box3 {
+    background-color: lime;
+    transition-property: width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
-#box3:hover{
-	background-color: darkgreen;
-	width: 200px;
-	height: 200px;
+#box3:hover {
+    background-color: darkgreen;
+    width: 200px;
+    height: 200px;
 }
 
-#box4{
-	background-color: #ff59ff;
-	transition-property: width, height;
-	transition-duration: 500ms;
-	transition-timing-function: ease-in-out;
+#box4 {
+    background-color: #ff59ff;
+    transition-property: width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
-#box4:hover{
-	background-color: purple;
-	width: 200px;
-	height: 200px;
+#box4:hover {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
 }
 
-.box p{
-	margin-top: 45px;
-	color: white;
+.box p {
+    margin-top: 45px;
+    color: white;
 }
 
-.box a{
-	color: white;
-	transition-property: font-size, color;
+.box a {
+    color: white;
+    transition-property: font-size, color;
 }
 
 .box a:hover {
-	color: grey;
-	font-size: 15px;
+    color: grey;
+    font-size: 15px;
 }
-
